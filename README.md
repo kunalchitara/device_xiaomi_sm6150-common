@@ -1,0 +1,1 @@
+# device_xiaomi_sm6150-common
