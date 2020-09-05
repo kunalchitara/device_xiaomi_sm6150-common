@@ -361,7 +361,10 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/qcom/display-caf-sm8150 \
+    hardware/qcom/audio-caf-sm8150 \
+    hardware/qcom/media-caf-sm8150
 
 # Telephony
 PRODUCT_PACKAGES += \

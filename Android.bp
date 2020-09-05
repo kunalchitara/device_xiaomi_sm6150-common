@@ -1,5 +1,8 @@
 soong_namespace {
     imports: [
         "hardware/xiaomi",
+        "hardware/qcom/display-caf-sm8150",
+        "hardware/qcom/audio-caf-sm8150",
+        "hardware/qcom/media-caf-sm8150",
     ],
 }

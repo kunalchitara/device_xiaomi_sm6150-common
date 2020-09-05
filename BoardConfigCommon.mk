@@ -232,3 +232,8 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
+
+# misc
+TARGET_QCOM_AUDIO_VARIANT := caf-sm8150
+TARGET_QCOM_DISPLAY_VARIANT := caf-sm8150
+TARGET_QCOM_MEDIA_VARIANT := caf-sm8150
