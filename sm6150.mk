@@ -169,10 +169,6 @@ PRODUCT_PACKAGES += \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # Display/Graphics
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
@@ -362,9 +358,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
-    hardware/qcom/display-caf-sm8150 \
-    hardware/qcom/audio-caf-sm8150 \
-    hardware/qcom/media-caf-sm8150
+    hardware/qcom/display \
+    hardware/qcom/audio \
+    hardware/qcom/media
 
 # Telephony
 PRODUCT_PACKAGES += \
